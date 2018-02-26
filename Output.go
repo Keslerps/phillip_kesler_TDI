@@ -31,10 +31,11 @@ func output(w http.ResponseWriter, Data topData, Term string) {
  */
 func format(Childdata data, w http.ResponseWriter) {
 	fmt.Fprintln(w, Childdata.Title)
-	fmt.Fprintf(w, "\tDomain: %s\n", Childdata.Domain)
-	fmt.Fprintf(w, "\tPermalink: www.reddit.com%s\n", Childdata.Perma)
 	fmt.Fprintf(w, "\tPost Score: %d\n", Childdata.Score)
+	fmt.Fprintf(w, "\tPost Author: %s\n", Childdata.Author)
 	fmt.Fprintf(w, "\tNumber of Comments: %d\n", Childdata.CommentNum)
+	fmt.Fprintf(w, "\tDomain: %s\n", Childdata.Domain)
+	fmt.Fprintf(w, "\tPermalink: %s\n", Childdata.Perma)
 	fmt.Fprintf(w, "\tThumbnail: %s\n", Childdata.Thumb)
 	fmt.Fprintf(w, "\tLink Flair: %s\n", Childdata.Flair)
 	fmt.Fprintf(w, "\tNumber of Gildings: %d\n", Childdata.Gilded)

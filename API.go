@@ -22,6 +22,7 @@ type topData struct {
  * Data for a specific post. Data included consist of
  * domain: where the data is hosted,
  * Score: Current score of the post
+ * Author: Reddit User responsible for the post
  * Crossposts: how many times this post has been x-posted
  * NSFW: If the post is marked as 18 only
  * thumbnail: link to the thumbnail image of the post
@@ -37,6 +38,7 @@ type topData struct {
 type data struct {
 	Domain     string `json:"domain"`
 	Score      int    `json:"score"`
+	Author     string `json:"author"`
 	Crossposts int    `json:"num_crossposts"`
 	NSFW       bool   `json:"over_18"`
 	Thumb      string `json:"thumbnail"`

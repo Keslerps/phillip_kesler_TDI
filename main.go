@@ -18,5 +18,5 @@ func main() {
 
 	rtr.HandleFunc("/redditer/:{search:[a-zA-Z]+}", handler).Methods("GET")
 	http.Handle("/", rtr)
-	log.Fatal(http.ListenAndServe(":8000", nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
