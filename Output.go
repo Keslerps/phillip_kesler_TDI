@@ -3,12 +3,13 @@ package main
 import (
 	"fmt"
 	"net/http"
+	"strings"
 	s "strings"
 )
 
 func output(w http.ResponseWriter, Data topData, Term string) {
 	for _, v := range Data.Children {
-		if s.Contains(v.ChildData.Title, Term) {
+		if s.Contains(strings.ToUpper(v.ChildData.Title), strings.ToUpper(Term)) {
 			format(v.ChildData, w)
 		}
 
