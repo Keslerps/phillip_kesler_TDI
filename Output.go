@@ -18,13 +18,18 @@ import (
 **/
 func output(w http.ResponseWriter, Data topData, Term string) {
 	currentTime := time.Now().Local()
+	postCount := 0
 	fmt.Fprintf(w, "Front page of /r/"+subReddit+" as of: %s\n", currentTime.Format(time.RFC1123))
 	fmt.Fprintf(w, "Search term: %s\n\n", Term)
 	for _, v := range Data.Children {
 		if s.Contains(strings.ToUpper(v.ChildData.Title), strings.ToUpper(Term)) {
 			format(v.ChildData, w)
+			postCount = postCount + 1
 		}
 
+	}
+	if postCount == 0 {
+		fmt.Fprintln(w, "Sorry, it appears your search yielded no results!\n Try again with a different term!")
 	}
 }
 

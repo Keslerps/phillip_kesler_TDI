@@ -17,6 +17,12 @@ import (
  **/
 var myClient = &http.Client{Timeout: 2 * time.Second}
 
+func startUp() *mux.Router {
+	rtr := mux.NewRouter()
+	rtr.HandleFunc("/redditer/:{search:[a-zA-Z_]+}", handler).Methods("GET")
+	return rtr
+}
+
 /**
  * HTTP handler for a request from main. Will issue a GET
  * reuqest to reddit.com/r/subReddit.json, with a request with a USER_AGENT
