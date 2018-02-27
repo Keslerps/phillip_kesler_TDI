@@ -1,5 +1,8 @@
 package main
 
+//Subreddit to search and retrive data from
+const subReddit = "civ"
+
 /**
  * Top level data found in all Reddit_API.
  * topData will be the data more specific to the subreddit,

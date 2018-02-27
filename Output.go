@@ -18,7 +18,7 @@ import (
 **/
 func output(w http.ResponseWriter, Data topData, Term string) {
 	currentTime := time.Now().Local()
-	fmt.Fprintf(w, "Front page of /r/civ as of: %s\n", currentTime.Format(time.RFC1123))
+	fmt.Fprintf(w, "Front page of /r/"+subReddit+" as of: %s\n", currentTime.Format(time.RFC1123))
 	fmt.Fprintf(w, "Search term: %s\n\n", Term)
 	for _, v := range Data.Children {
 		if s.Contains(strings.ToUpper(v.ChildData.Title), strings.ToUpper(Term)) {

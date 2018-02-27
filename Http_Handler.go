@@ -19,7 +19,7 @@ var myClient = &http.Client{Timeout: 2 * time.Second}
 
 /**
  * HTTP handler for a request from main. Will issue a GET
- * reuqest to reddit.com/r/civ.json, with a request with a USER_AGENT
+ * reuqest to reddit.com/r/subReddit.json, with a request with a USER_AGENT
  * header as to not raise Reddit's bot protections, and then
  * Unmarshal the data into the Reddit_API struct before sending
  * that struct to output for writing to the response. If
@@ -36,7 +36,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	 * setting the header as a User-Agent, and issue
 	 * the GET request.
 	 **/
-	req, err := http.NewRequest("GET", "http://www.reddit.com/r/civ.json", nil)
+	req, err := http.NewRequest("GET", "http://www.reddit.com/r/"+subReddit+".json", nil)
 	if err != nil {
 		log.Print(err)
 		os.Exit(1)
