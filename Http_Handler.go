@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -32,8 +31,6 @@ var myClient = &http.Client{Timeout: 2 * time.Second}
 func handler(w http.ResponseWriter, r *http.Request) {
 	//Search parameter defined by the :search field
 	params := mux.Vars(r)
-
-	fmt.Fprintf(w, "Search term: %s\n\n", params["search"])
 	/**
 	 * Create the request, be a good internet denizen by
 	 * setting the header as a User-Agent, and issue
