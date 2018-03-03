@@ -17,6 +17,11 @@ import (
  **/
 var myClient = &http.Client{Timeout: 2 * time.Second}
 
+/**
+ * Creates a Gorilla Mux Router (from the provided GitHub repository)
+ * and sets it up to handle /redditer/:search, where search can be
+ * any word, ignoring case. Returns the made router on completion.
+ **/
 func startUp() *mux.Router {
 	rtr := mux.NewRouter()
 	rtr.HandleFunc("/redditer/:{search:[a-zA-Z_]+}", handler).Methods("GET")
