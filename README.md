@@ -59,8 +59,9 @@ Examples:
 Front page of /r/civ as of: Fri, 02 Mar 2018 19:30:06 EST
 Search term: city
 
+<pre>
+<code>
 3 Envoys for liberating a City State
-
 	Post Score: 132
 	Post Author: J_hoff
 	Number of Comments: 23
@@ -71,12 +72,9 @@ Search term: city
 	Number of Gildings: 0
 	Number of Crossposts: 0
 	NSFW?: false
-	Stickied?: false
-	
+	Stickied?: false	
 My submission for Petra Porn - it's the most productive city I've ever had in this game.
-
-	Post Score: 3
-	
+	Post Score: 3	
 	Post Author: PutinsHorse
 	Number of Comments: 6
 	Domain: i.redd.it
@@ -87,9 +85,7 @@ My submission for Petra Porn - it's the most productive city I've ever had in th
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
-	
 Theoretical Maximum wonders in a single city.
-
 	Post Score: 140
 	Post Author: arca404
 	Number of Comments: 33
@@ -101,9 +97,7 @@ Theoretical Maximum wonders in a single city.
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
-	
 28 wonder city. Is this the max yet?
-
 	Post Score: 300
 	Post Author: six_string_sensei
 	Number of Comments: 57
@@ -115,16 +109,17 @@ Theoretical Maximum wonders in a single city.
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
-
+</code>
+</pre>
 <strong>Input:</strong> http://localhost:8080/redditer/:win
 
 <strong>Output:</strong>
-
+<pre>
+<code>
 Front page of /r/civ as of: Fri, 02 Mar 2018 19:33:08 EST
 Search term: win
 
 After winning outback tycoon on deity, I know what deforestation feels like.
-
 	Post Score: 11
 	Post Author: RedKnightTemplar
 	Number of Comments: 0
@@ -137,7 +132,6 @@ After winning outback tycoon on deity, I know what deforestation feels like.
 	NSFW?: false
 	Stickied?: false
 Why does one of my cities still want wine when i already have it connected to the trade network?
-
 	Post Score: 2
 	Post Author: BalliMalli
 	Number of Comments: 6
@@ -149,13 +143,17 @@ Why does one of my cities still want wine when i already have it connected to th
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
+</code>
+</pre>
+<strong>Input:</strong> http://localhost:8080/redditer/:TDI
   
-  <strong>Input:</strong> http://localhost:8080/redditer/:TDI
-  
-  <strong>Output:</strong>
-  
- Front page of /r/civ as of: Fri, 02 Mar 2018 19:34:52 EST
+<strong>Output:</strong>
+<pre>
+<code>
+Front page of /r/civ as of: Fri, 02 Mar 2018 19:34:52 EST
 Search term: TDI
 
 Sorry, it appears your search yielded no results!
  Try again with a different term!
+</code>
+</pre>
