@@ -47,3 +47,101 @@ Formats and prints the data received by HTTP_Handler. Output will post the searc
 
 Format prints out the posts data. This is made to reduce the amount of code in the output function, and for code style purposes. Examples of the output are listed below in the examples section.
 </p>
+
+<h3>
+Examples:
+</h3>
+
+<strong>Input:</strong> https://localhost:8080/redditer/:city
+<strong>Output:</strong>
+
+Front page of /r/civ as of: Fri, 02 Mar 2018 19:30:06 EST
+Search term: city
+
+3 Envoys for liberating a City State
+	Post Score: 132
+	Post Author: J_hoff
+	Number of Comments: 23
+	Domain: self.civ
+	Permalink: /r/civ/comments/81epv2/3_envoys_for_liberating_a_city_state/
+	Thumbnail: self
+	Link Flair: 
+	Number of Gildings: 0
+	Number of Crossposts: 0
+	NSFW?: false
+	Stickied?: false
+My submission for Petra Porn - it's the most productive city I've ever had in this game.
+	Post Score: 3
+	Post Author: PutinsHorse
+	Number of Comments: 6
+	Domain: i.redd.it
+	Permalink: /r/civ/comments/81jxmr/my_submission_for_petra_porn_its_the_most/
+	Thumbnail: https://b.thumbs.redditmedia.com/2zkEJchPvWKYM4LF3bnSmkBDR_PH83vnABd5FHtZb9g.jpg
+	Link Flair: screenflair
+	Number of Gildings: 0
+	Number of Crossposts: 0
+	NSFW?: false
+	Stickied?: false
+Theoretical Maximum wonders in a single city.
+	Post Score: 140
+	Post Author: arca404
+	Number of Comments: 33
+	Domain: self.civ
+	Permalink: /r/civ/comments/819ro0/theoretical_maximum_wonders_in_a_single_city/
+	Thumbnail: self
+	Link Flair: gameflair
+	Number of Gildings: 0
+	Number of Crossposts: 0
+	NSFW?: false
+	Stickied?: false
+28 wonder city. Is this the max yet?
+	Post Score: 300
+	Post Author: six_string_sensei
+	Number of Comments: 57
+	Domain: imgur.com
+	Permalink: /r/civ/comments/817hvw/28_wonder_city_is_this_the_max_yet/
+	Thumbnail: https://a.thumbs.redditmedia.com/2ehzDy2xGx5tj7A3FQbpPSaHrAIlm2wJ7_DuYdSKWm4.jpg
+	Link Flair: 
+	Number of Gildings: 0
+	Number of Crossposts: 0
+	NSFW?: false
+	Stickied?: false
+
+<strong>Input:</strong> http://localhost:8080/redditer/:win
+<strong>Output:</strong>
+Front page of /r/civ as of: Fri, 02 Mar 2018 19:33:08 EST
+Search term: win
+
+After winning outback tycoon on deity, I know what deforestation feels like.
+	Post Score: 11
+	Post Author: RedKnightTemplar
+	Number of Comments: 0
+	Domain: imgur.com
+	Permalink: /r/civ/comments/81iqty/after_winning_outback_tycoon_on_deity_i_know_what/
+	Thumbnail: https://a.thumbs.redditmedia.com/cyRxjtQ54tif9o4Jjh89BmyrdRxoSOrnOa9cUPLhTU4.jpg
+	Link Flair: 
+	Number of Gildings: 0
+	Number of Crossposts: 0
+	NSFW?: false
+	Stickied?: false
+Why does one of my cities still want wine when i already have it connected to the trade network?
+	Post Score: 2
+	Post Author: BalliMalli
+	Number of Comments: 6
+	Domain: i.redd.it
+	Permalink: /r/civ/comments/81jzdi/why_does_one_of_my_cities_still_want_wine_when_i/
+	Thumbnail: https://b.thumbs.redditmedia.com/u0GPzsVxLmkhr0HBWPfEyZNVBGxJ-tmFK6E5hfr57vU.jpg
+	Link Flair: gameflair
+	Number of Gildings: 0
+	Number of Crossposts: 0
+	NSFW?: false
+	Stickied?: false
+  
+  <strong>Input:</strong> http://localhost:8080/redditer/:TDI
+  <strong>Output:</strong>
+  
+ Front page of /r/civ as of: Fri, 02 Mar 2018 19:34:52 EST
+Search term: TDI
+
+Sorry, it appears your search yielded no results!
+ Try again with a different term!
