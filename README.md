@@ -53,12 +53,14 @@ Examples:
 </h3>
 
 <strong>Input:</strong> https://localhost:8080/redditer/:city
+
 <strong>Output:</strong>
 
 Front page of /r/civ as of: Fri, 02 Mar 2018 19:30:06 EST
 Search term: city
 
 3 Envoys for liberating a City State
+
 	Post Score: 132
 	Post Author: J_hoff
 	Number of Comments: 23
@@ -70,8 +72,11 @@ Search term: city
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
+	
 My submission for Petra Porn - it's the most productive city I've ever had in this game.
+
 	Post Score: 3
+	
 	Post Author: PutinsHorse
 	Number of Comments: 6
 	Domain: i.redd.it
@@ -82,7 +87,9 @@ My submission for Petra Porn - it's the most productive city I've ever had in th
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
+	
 Theoretical Maximum wonders in a single city.
+
 	Post Score: 140
 	Post Author: arca404
 	Number of Comments: 33
@@ -94,7 +101,9 @@ Theoretical Maximum wonders in a single city.
 	Number of Crossposts: 0
 	NSFW?: false
 	Stickied?: false
+	
 28 wonder city. Is this the max yet?
+
 	Post Score: 300
 	Post Author: six_string_sensei
 	Number of Comments: 57
@@ -108,11 +117,14 @@ Theoretical Maximum wonders in a single city.
 	Stickied?: false
 
 <strong>Input:</strong> http://localhost:8080/redditer/:win
+
 <strong>Output:</strong>
+
 Front page of /r/civ as of: Fri, 02 Mar 2018 19:33:08 EST
 Search term: win
 
 After winning outback tycoon on deity, I know what deforestation feels like.
+
 	Post Score: 11
 	Post Author: RedKnightTemplar
 	Number of Comments: 0
@@ -125,6 +137,7 @@ After winning outback tycoon on deity, I know what deforestation feels like.
 	NSFW?: false
 	Stickied?: false
 Why does one of my cities still want wine when i already have it connected to the trade network?
+
 	Post Score: 2
 	Post Author: BalliMalli
 	Number of Comments: 6
@@ -138,6 +151,7 @@ Why does one of my cities still want wine when i already have it connected to th
 	Stickied?: false
   
   <strong>Input:</strong> http://localhost:8080/redditer/:TDI
+  
   <strong>Output:</strong>
   
  Front page of /r/civ as of: Fri, 02 Mar 2018 19:34:52 EST
